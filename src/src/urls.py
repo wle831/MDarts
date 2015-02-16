@@ -11,6 +11,12 @@ urlpatterns = patterns('',
     url(r'^$', 'signups.views.home', name='home'),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^standings/', 'signups.views.standings', name='standings'),
+    url(r'^about/', 'signups.views.about', name='about'),
+    url(r'^statistics/', 'signups.views.statistics', name='statistics'),
+    url(r'^schedules/', 'signups.views.schedules', name='schedules'),
+    url(r'^contact/', 'signups.views.contact', name='contact'),
+    url(r'^register/', 'signups.views.register', name='register'),
+
 )
 
 if settings.DEBUG:

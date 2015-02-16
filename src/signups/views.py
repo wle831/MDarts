@@ -17,3 +17,27 @@ def home(request):
 def standings(request):
 
 	return render_to_response("standings.html", locals(), context_instance=RequestContext(request))
+
+def about(request):
+
+	return render_to_response("about.html", locals(), context_instance=RequestContext(request))
+
+def contact(request):
+
+	return render_to_response("contact.html", locals(), context_instance=RequestContext(request))
+
+def schedules(request):
+
+	return render_to_response("schedules.html", locals(), context_instance=RequestContext(request))
+
+def statistics(request):
+
+	return render_to_response("statistics.html", locals(), context_instance=RequestContext(request))
+
+def register(request):
+
+	return render_to_response("register.html", locals(), context_instance=RequestContext(request))
+
+def home(request):
+
+	return render_to_response("base.html", locals(), context_instance=RequestContext(request))
