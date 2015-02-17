@@ -34,10 +34,6 @@ def statistics(request):
 
 	return render_to_response("statistics.html", locals(), context_instance=RequestContext(request))
 
-def register(request):
-
-	return render_to_response("register.html", locals(), context_instance=RequestContext(request))
-
 def home(request):
 
 	return render_to_response("base.html", locals(), context_instance=RequestContext(request))

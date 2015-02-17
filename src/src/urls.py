@@ -15,7 +15,6 @@ urlpatterns = patterns('',
     url(r'^statistics/', 'signups.views.statistics', name='statistics'),
     url(r'^schedules/', 'signups.views.schedules', name='schedules'),
     url(r'^contact/', 'signups.views.contact', name='contact'),
-    url(r'^register/', 'signups.views.register', name='register'),
 
 )
 
